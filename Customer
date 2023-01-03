@@ -1,16 +1,15 @@
-# OOPFinalExam
 
 abstract class Customer{
-		// private and protected attributes of superclass customer
+		// private and protected attributes of superclass Customer
 		private String name;
 		protected double amount;
-		// constructor of superclass customer with parameters 
+		// constructor of superclass Customer with parameters 
 		public Customer (String name, int amount){
 			this.name = name;
 			this.amount = amount;
 		}
-		//abstract method of superclass customer
-		public abstract double calculatebill();
+		//abstract method of superclass Customer
+		public abstract double calculateBill();
 		//methods of the superclass
 		public String getName(){
 			return name;
